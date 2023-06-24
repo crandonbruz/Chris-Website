@@ -4,27 +4,30 @@
     font-family: serif;
 }
 
+nav {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
 .navbar {
-    background-image: url("../images/logo.PNG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(247, 243, 231);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: end;
-    text-emphasis-color: rgb(160, 104, 26);
-    
+    display: flex;
+    flex-direction: row;
 }
 
-.links {
+img {
+    position: relative;
+    left: 720px;
+    width: 200px;
+    height: 200px;
+}
+
+nav ul li {
     display: inline-block;
-    align-items: center;
-    list-style: none;
-    padding: 20px 20px;
-    text-emphasis-color: rgb(160, 104, 26);
-    
+    margin-left: 100px;
+    list-style-type: none;
+}
+.links {
+    flex-flow: column wrap;
 }
 
 .banner {

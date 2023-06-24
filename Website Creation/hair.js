@@ -1,1 +1,0 @@
-alert ('Sofia Lopez is the most beautiful girl in the world')
