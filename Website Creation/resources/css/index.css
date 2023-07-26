@@ -1,22 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: 'Edu SA Beginner', cursive;
+    /* background: rgb(231,221,219);
+    background: linear-gradient(180deg, rgba(231,221,219,1) 0%, rgba(64,75,120,1) 100%); */
 }
 
 nav {
-    height: 120px;
     margin: 0;
     padding: 0;
+    background: rgb(241,238,233);
+    background: linear-gradient(131deg, rgba(241,238,233,1) 0%, rgba(241,238,234,1) 99%);
 }
 .navbar {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: end;
 }
 
 img {
     position: relative;
-    left: 720px;
+    left: 800px;
     width: 200px;
     height: 200px;
 }
@@ -27,18 +32,16 @@ nav ul li {
     list-style-type: none;
 }
 .links {
-    flex-flow: column wrap;
+    font-size: 20px;
 }
 
 .banner {
-    background-color: rgb(243, 236, 239);
+    background-color: linear-gradient(180deg, rgba(231,221,219,1) 0%, rgba(64,75,120,1) 100%);
     background-image: url("../images/2g9a5126.jpeg");
     background-position: center;
     background-size: cover;
-    margin-top: 90px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
     font-size: x-large;
-    font-family: serif;
 }
